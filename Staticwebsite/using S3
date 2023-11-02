@@ -5,9 +5,6 @@ Open the Amazon S3 console.
 Click "Create bucket."
 Choose a globally unique bucket name and select the region for your bucket.
 
-
-
-
 Upload Your Website Files:
 
 In your S3 bucket, navigate to the "Properties" tab.
