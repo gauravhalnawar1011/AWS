@@ -7,7 +7,7 @@ Choose a globally unique bucket name and select the region for your bucket.
 ![image](https://github.com/gauravhalnawar1011/AWS/assets/140076717/ae9d2bd1-5dce-49c1-98dc-0876b85d28be)
 ![image](https://github.com/gauravhalnawar1011/AWS/assets/140076717/b9db9979-8123-4b1a-8d09-e1f4f5e960e1)
 ![image](https://github.com/gauravhalnawar1011/AWS/assets/140076717/c0f4a7da-e310-41d7-945e-d8aa41ae4dd4)
-enable the static website hosting
+enable the static website hosting make sure
 ![image](https://github.com/gauravhalnawar1011/AWS/assets/140076717/c72da279-632b-480e-8591-facd86430ba1)
 ![image](https://github.com/gauravhalnawar1011/AWS/assets/140076717/cc6790ca-4943-4ff4-8733-30e430f24468)
 ![image](https://github.com/gauravhalnawar1011/AWS/assets/140076717/ca326d8c-15c0-4f05-b6fc-43c8922fa766)
