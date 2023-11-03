@@ -10,10 +10,12 @@ Auto Scaling
 
 => Scaling we can do in 2 ways
 
-	1) Verticle Scaling
-	2) Horizontal Scaling
+	1) Verticle Scaling: This involves increasing the power of existing resources.
+For example, you might upgrade an instance from 8 GB of RAM to 64 GB of RAM to handle increased workloads.
+	2) Horizontal Scaling:This entails increasing the number of machines or servers.
+Instead of having just one server, you add more servers to distribute the workload
 
--> Verticle scaling means increasing the power of existing resources
+-> Verticle scaling means increasing the power of existing resources 
 
 		Ex : chaging from 8 GB RAM to 64 GB RAM
 
@@ -47,18 +49,18 @@ What is Auto Scaling
 Auto Scaling Advantages
 +++++++++++++++++++++++
 
-1) Fault Tolerance
-2) Availability
-3) Cost Management
+1) Fault Tolerance: Auto Scaling helps maintain your application's uptime and ensures that even if an instance fails, new ones can be quickly added to replace it.
+2) Availability :  It improves your application's availability by dynamically scaling to meet demand, thus reducing the risk of downtime.
+3) Cost Management : Auto Scaling enables cost optimization by scaling down during periods of low demand, reducing operational expenses
 
 
 
 Steps to setup AutoScaling
 ++++++++++++++++++++++++++
 
-1) Create Launch Template
+1) Create Launch Template: This template defines the configuration for the instances that Auto Scaling will launch.
 
-2) Create Auto Scaling Group by selecing Launch Template
+2) Create Auto Scaling Group by selecing Launch Template: You create an Auto Scaling group and associate it with the launch template. This group is responsible for maintaining the desired number of instances based on the specified configurations
 
 
 
