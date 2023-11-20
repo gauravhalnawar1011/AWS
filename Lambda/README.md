@@ -39,3 +39,66 @@ Now, let's explore some real-world use cases to better understand how AWS Lambda
 4. **Real-Time Analytics**: Lambda can process streaming data from IoT devices, social media, or other sources, allowing you to perform real-time analytics and gain insights instantly.
 
 5. **API Backends**: Develop scalable API backends for web and mobile applications using Lambda. It automatically handles the incoming API requests and executes the corresponding functions.
+
+
+# AWS Lambda Beginner's Guide
+
+## 1. Create an AWS Account
+
+If you don't have an AWS account, you'll need to create one. Go to [AWS Console](https://aws.amazon.com/) and click on "Create an AWS account" to get started.
+
+## 2. Access AWS Lambda Service
+
+1. Once logged in, navigate to the AWS Management Console.
+2. Search for "Lambda" in the services search bar, and click on "Lambda" under the "Compute" section.
+
+## 3. Create a Lambda Function
+
+1. Click on the "Create function" button.
+2. Choose "Author from scratch."
+3. Fill in the following details:
+   - **Function name**: Enter a unique name for your Lambda function.
+   - **Runtime**: Choose the runtime for your function (e.g., Node.js, Python, Java).
+   - **Role**: Create a new role with basic Lambda permissions.
+
+## 4. Write Code
+
+In the "Function code" section, you can either write your code directly in the AWS Lambda console or upload a .zip file containing your code. For example, a simple Node.js function might look like this:
+
+```javascript
+exports.handler = async (event) => {
+    console.log('Hello, AWS Lambda!');
+    return {
+        statusCode: 200,
+        body: JSON.stringify('Hello from Lambda!'),
+    };
+};
+```
+
+## 5. Configure Trigger
+
+Lambda functions can be triggered by various AWS services. For simplicity, let's manually add an API Gateway trigger.
+
+1. Click on "Add trigger" in the Designer section.
+2. Choose "API Gateway" from the list.
+3. Configure the API as needed and click "Add."
+
+## 6. Test Your Function
+
+1. Click on the "Test" button in the Lambda console.
+2. Create a new test event or use the default.
+3. Click "Save changes" and "Test" to run your function.
+
+## 7. View Results
+
+Check the "Execution result" and logs to see the output of your Lambda function.
+
+## 8. Monitor and Troubleshoot
+
+Explore the "Monitoring" and "Triggers" tabs in the Lambda console for monitoring and troubleshooting options.
+
+## 9. Cleanup
+
+When you're done experimenting, consider deleting the Lambda function to avoid ongoing charges.
+
+Congratulations! You've created your first AWS Lambda function. This is a basic guide, and as you become more comfortable, you can explore advanced features and integrate Lambda functions with other AWS services.
